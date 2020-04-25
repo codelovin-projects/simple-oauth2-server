@@ -46,3 +46,5 @@ Click "Update Request" button. Then go back to Body tab and enter the details as
 Click "Send" button. And you will get the below output.
 
 ![Output](https://github.com/codelovin-projects/simple-oauth2-server/blob/master/src/main/resources/static/auth-postman-output.JPG)
+
+That's all for now. I will come up with more OAuth 2 features and implentation tricks in near future.

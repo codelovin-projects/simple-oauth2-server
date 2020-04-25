@@ -33,4 +33,6 @@ DefaultTokenServices delegates persistence of tokens to TokenStore. The default 
 ```
 ## Running the Application & Test
 
-Start the Spring Boot application. 
+Start the Spring Boot application. Application will be available at http://localhost:9912/.
+
+

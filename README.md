@@ -3,3 +3,6 @@ This project demonstartes how to create a very simple Authorization Server using
 
 ## @EnableAuthorizationServer
 This annotation is used to configure the OAuth 2.0 Authorization Servermechanism.
+
+## Tokens Generation
+By default, access_token and refresh_token are being generated via random value. This is taken care by framework class DefaultTokenServices.

@@ -30,6 +30,7 @@ DefaultTokenServices delegates persistence of tokens to TokenStore. The default 
 	@Override
 	public void configure(AuthorizationServerEndpointsConfigurer endpoints) {
 	   endpoints.authenticationManager(authenticationManager);
+	}
 ```
 ## Running the Application & Test
 

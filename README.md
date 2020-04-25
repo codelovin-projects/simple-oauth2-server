@@ -39,7 +39,7 @@ Now open postman and go to the Authorization tab after entering the token endpoi
 
 ![Output](https://github.com/codelovin-projects/simple-oauth2-server/blob/master/src/main/resources/static/auth-postman-authorization.JPG)
 
-Click "Update Request" button. Then go back to Body tab.
+Click "Update Request" button. Then go back to Body tab and enter the details as shown below.
 
 ![Output](https://github.com/codelovin-projects/simple-oauth2-server/blob/master/src/main/resources/static/auth-postman-body.JPG)
 

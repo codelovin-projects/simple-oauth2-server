@@ -38,3 +38,8 @@ Start the Spring Boot application. Application will be available at http://local
 Now open postman and go to the Authorization tab after entering the token endpoint:
 
 ![Output](https://github.com/codelovin-projects/simple-oauth2-server/blob/master/src/main/resources/static/auth-postman-authorization.JPG)
+
+Click "Update Request" button. Then go back to Body tab.
+
+![Output](https://github.com/codelovin-projects/simple-oauth2-server/blob/master/src/main/resources/static/auth-postman-body.JPG)
+

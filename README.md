@@ -35,4 +35,6 @@ DefaultTokenServices delegates persistence of tokens to TokenStore. The default 
 
 Start the Spring Boot application. Application will be available at http://localhost:9912/.
 
+Now open postman and go to the Authorization tab after entering the token endpoint:
 
+![Output](https://github.com/codelovin-projects/simple-oauth2-server/blob/master/src/main/resources/static/auth-postman-authorization.JPG)

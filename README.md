@@ -31,3 +31,6 @@ DefaultTokenServices delegates persistence of tokens to TokenStore. The default 
 	public void configure(AuthorizationServerEndpointsConfigurer endpoints) {
 	   endpoints.authenticationManager(authenticationManager);
 ```
+## Running the Application & Test
+
+Start the Spring Boot application. 

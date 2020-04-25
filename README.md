@@ -12,7 +12,7 @@ DefaultTokenServices delegates persistence of tokens to TokenStore. The default 
 
 ## How to Switch On Password Grant
 
-### Step-1: Add the below code snippet in your Web Security COnfiguration.
+#### Step-1: Add the below code snippet in your Web Security COnfiguration.
 
 ```bash
     @Override
@@ -21,4 +21,13 @@ DefaultTokenServices delegates persistence of tokens to TokenStore. The default 
        return super.authenticationManagerBean();
     }
 ```
+#### Step-2: Add the below code snippet in your Authorization Server Configuration.
 
+```bash
+	@Autowired
+	private AuthenticationManager authenticationManager;
+	
+	@Override
+	public void configure(AuthorizationServerEndpointsConfigurer endpoints) {
+	   endpoints.authenticationManager(authenticationManager);
+```

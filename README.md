@@ -43,3 +43,6 @@ Click "Update Request" button. Then go back to Body tab and enter the details as
 
 ![Output](https://github.com/codelovin-projects/simple-oauth2-server/blob/master/src/main/resources/static/auth-postman-body.JPG)
 
+Click "Send" button. And you will get the below output.
+
+![Output](https://github.com/codelovin-projects/simple-oauth2-server/blob/master/src/main/resources/static/auth-postman-output.JPG)
